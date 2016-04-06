@@ -41,7 +41,7 @@ wget http://wllbg.org/latest-v2-package && tar xvf latest-v2-package
 
 <small>(md5 hash of the package: `62c629d1803a159282dd3065deea9f3a`)</small>
 
-[Read this documentation to create your virtual host](http://doc.wallabag.org/en/v2/user/installation.html#installing-on-apache).  
+Now, [read this documentation to create your virtual host](http://doc.wallabag.org/en/v2/user/installation.html#installing-on-apache), then access to your wallabag.  
 If you changed the database configuration to use MySQL or PostgreSQL, you need to create a user via this command `php bin/console wallabag:install --env=prod`.
 
 ## wallabag 1
