@@ -3,7 +3,7 @@ slug: roadmap-wallabag-v2
 title: Roadmap for wallabag v2
 tags: v2
 
-As you saw last weeks, we worked very hard on wallabag v2 and we released two alpha ([alpha.1]({filename}20160108-wallabag-alpha1-v2.md) and [alpha.2]({filename}20160220-wallabag-alpha2-v2.md)).
+As you saw last weeks, we worked very hard on wallabag v2 and we released two alpha ([alpha.1]({filename}/posts/20160108-wallabag-alpha1-v2.md) and [alpha.2]({filename}/posts/20160220-wallabag-alpha2-v2.md)).
 
 Today, we can try to have a real roadmap for this year. [You can follow our roadmap on GitHub](https://github.com/wallabag/wallabag/milestones), we update it very often.
 

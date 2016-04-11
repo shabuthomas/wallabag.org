@@ -3,7 +3,7 @@ Menulabel: Downloads
 sortorder: 30
 
  * Last version: **2.0.1** (2016/04/11).
- * [Blog post about this version]({filename}/20160411-wallabag-201.md)
+ * [Blog post about this version](https://www.wallabag.org/blog/2016/04/11/wallabag-201)
  * [Need help about installation?]({filename}support.md)
  * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag)
 
