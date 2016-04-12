@@ -58,7 +58,7 @@ If you changed the database configuration to use MySQL or PostgreSQL, you need t
 
 ### Upgrade
 
-Backup your `app/config/parameters.yml` file. Extract the archive in your wallabag folder and replace `app/config/parameters.yml` with yours. 
+Backup your `app/config/parameters.yml` file. Extract the archive in your wallabag folder and replace `app/config/parameters.yml` with yours. If you use SQLite, you must also copy your `data/` folder inside the new installation.
 
 ## wallabag 1
 
