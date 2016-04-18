@@ -63,7 +63,7 @@ Backup your `app/config/parameters.yml` file. Extract the archive in your wallab
 ## wallabag 1
 
   * Last version: **1.9.2** (2016/04/18).
-  * [Blog post about this version]({filename}/20160418-wallabag-192.md)
+  * [Blog post about this version](https://www.wallabag.org/blog/2016/04/18/wallabag-192)
   * [Need help about installation?]({filename}support.md)
  * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag/tree/master)
 
