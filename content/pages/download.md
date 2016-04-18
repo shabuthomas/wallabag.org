@@ -62,8 +62,8 @@ Backup your `app/config/parameters.yml` file. Extract the archive in your wallab
 
 ## wallabag 1
 
-  * Last version: **1.9.1** (2015/08/03).
-  * [Blog post about this version]({filename}/20150803-wallabag-v1.9.1-released.md)
+  * Last version: **1.9.2** (2016/04/18).
+  * [Blog post about this version]({filename}/20160418-wallabag-192.md)
   * [Need help about installation?]({filename}support.md)
  * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag/tree/master)
 
@@ -71,7 +71,7 @@ Backup your `app/config/parameters.yml` file. Extract the archive in your wallab
 wget http://wllbg.org/latest && unzip latest
 ```
 
-<small>(md5 hash of the package: `79269248d038569a49677366dae5eb77`)</small>
+<small>(md5 hash of the package: `c54ac594b03ce2026cf1f671391033e3`)</small>
 
 ## Third-party applications
 
