@@ -27,7 +27,7 @@ In your wallabag folder, execute these commands:
 
 ```
 git fetch origin
-git pull --tags
+git fetch --tags
 git checkout 2.0.1
 SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
 php bin/console wallabag:install --env=prod
