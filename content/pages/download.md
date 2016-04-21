@@ -31,7 +31,7 @@ git fetch origin
 git fetch --tags
 git checkout 2.0.2
 SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
-php bin/console wallabag:install --env=prod
+php bin/console cache:clear --env=prod
 ```
 
 ## Installation via Docker
@@ -65,6 +65,8 @@ If you changed the database configuration to use MySQL or PostgreSQL, you need t
 
 Backup your `app/config/parameters.yml` file. Extract the archive in your wallabag folder and replace `app/config/parameters.yml` with yours.  
 If you use SQLite, you must also copy your `data/` folder inside the new installation.
+
+Please empty `var/cache` folder.
 
 ## wallabag 1
 
