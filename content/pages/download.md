@@ -5,6 +5,7 @@ sortorder: 30
  * Last version: **2.0.2** (2016/04/21).
  * [Blog post about this version](https://www.wallabag.org/blog/2016/04/21/wallabag-202)
  * [Need help about installation?]({filename}support.md)
+ * [Need to update from wallabag v1?](http://doc.wallabag.org/en/master/user/migration.html)
  * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag)
 
 ## Installation on a dedicated web server (recommended way)
