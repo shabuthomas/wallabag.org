@@ -34,6 +34,10 @@ SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
 php bin/console wallabag:install --env=prod
 ```
 
+## Installation via Docker
+
+You can find our official repository [on Docker hub](https://hub.docker.com/r/wallabag/wallabag/).
+
 ## Installation on a shared hosting
 
 We provide you a package with all dependancies inside.  
