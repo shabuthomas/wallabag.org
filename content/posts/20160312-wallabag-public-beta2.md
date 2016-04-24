@@ -11,7 +11,7 @@ If you missed our recent blog posts, here are the main features of wallabag v2:
 * authorization via oAuth2
 * a new default theme, called `material`
 * save an article, read it, favorite it, archive it. (Hopefully)
-* annotations: In each article you read, you can write annotations. ([read the doc](http://doc.wallabag.org/en/v2/user/annotations.html))
+* annotations: In each article you read, you can write annotations. ([read the doc](http://doc.wallabag.org/en/master/user/annotations.html))
 * assign tags to entries
 * edit article titles
 * RSS feeds (with ability to limit number of articles)
@@ -20,11 +20,11 @@ If you missed our recent blog posts, here are the main features of wallabag v2:
 * recover passwords from login page (you have to fill your email on config page)
 * picture preview, if available, is displayed for each entry
 * Public registration
-* migration from wallabag v1/v2 (based on JSON export) ([read the doc](http://doc.wallabag.org/en/v2/user/import.html))
-* migration from Pocket (it works, but we need to implement asynchronous import: if you have too many articles, it can fail) ([read the doc](http://doc.wallabag.org/en/v2/user/import.html))
+* migration from wallabag v1/v2 (based on JSON export) ([read the doc](http://doc.wallabag.org/en/master/user/import.html))
+* migration from Pocket (it works, but we need to implement asynchronous import: if you have too many articles, it can fail) ([read the doc](http://doc.wallabag.org/en/master/user/import.html))
 * exports in many formats (PDF, JSON, EPUB, MOBI, XML, CSV and TXT).
-* 2-Factor authentication via email ([read the doc](http://doc.wallabag.org/en/v2/user/configuration.html#two-factor-authentication))
-* Tagging rule: create a rule to automatically assign tags to entries! ([read the doc](http://doc.wallabag.org/en/v2/user/configuration.html#tagging-rules))
+* 2-Factor authentication via email ([read the doc](http://doc.wallabag.org/en/master/user/configuration.html#two-factor-authentication))
+* Tagging rule: create a rule to automatically assign tags to entries! ([read the doc](http://doc.wallabag.org/en/master/user/configuration.html#tagging-rules))
 * German, French, Turkish, Persian, Romanian, Polish, Danish, Spanish and English translations
 * Added Quickstart for beginners (when you don't have any entries)
 * maintenance mode (useful when you'll upgrade your wallabag platform)
@@ -43,7 +43,7 @@ We have work to do on our API, [you can have a look on this pull request](https:
 * We added `wallabag` in our page title, to avoid confusion via the original article [#1756](https://github.com/wallabag/wallabag/issues/1756)
 * Fixed Docker timezone [#1726](https://github.com/wallabag/wallabag/issues/1726)
 * spanish translation
-* documentation about filters [http://doc.wallabag.org/en/v2/user/filters.html](http://doc.wallabag.org/en/v2/user/filters.html)
+* documentation about filters [http://doc.wallabag.org/en/master/user/filters.html](http://doc.wallabag.org/en/master/user/filters.html)
 
 We didn't write database migrations for this beta, but this feature is planned for next versions.  
 If you want to upgrade your previous installation, please run this command `bin/console doctrine:schema:update --force`.
@@ -58,7 +58,7 @@ Our documentation is now hosted on [ReadTheDocs](http://readthedocs.org/).
 
 ### Translate wallabag and documentation
 
-Please read this page: [http://doc.wallabag.org/en/v2/developer/translate.html](http://doc.wallabag.org/en/v2/developer/translate.html).
+Please read this page: [http://doc.wallabag.org/en/master/developer/translate.html](http://doc.wallabag.org/en/master/developer/translate.html).
 
 ### Third-party applications
 
@@ -88,7 +88,7 @@ We provide you a package, [`wallabag-2.0.0-beta.2.tar.gz`](http://wllbg.org/late
 The default configuration uses SQLite for the database. If you want to change these settings, please edit `app/config/parameters.yml`.
 
 **Warning:** With this package, wallabag don't check mandatory extensions used in the application (theses checks are made during `composer create-project` when you have a dedicated web server, see above).  
-**[Please read our installation documentation to see requirements](http://doc.wallabag.org/en/v2/user/installation.html)**.
+**[Please read our installation documentation to see requirements](http://doc.wallabag.org/en/master/user/installation.html)**.
 
 * Download this file here: [http://wllbg.org/latest-v2-package](http://wllbg.org/latest-v2-package)
 * Extract it (`tar xvf wallabag-2.0.0-beta.2.tar.gz`)
