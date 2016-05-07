@@ -23,6 +23,7 @@ It's time to update! We just released **wallabag 2.0.3**. We are working on wall
 
 ### Fixed
 
+- [#2023](https://github.com/wallabag/wallabag/pull/2023) Fix translation for validators (Nicolas Lœuillet)
 - [#2020](https://github.com/wallabag/wallabag/pull/2020) Fix number of entries in tag/list (Nicolas Lœuillet)
 - [#2022](https://github.com/wallabag/wallabag/pull/2022) Fix pagination bar on small devices (Nicolas Lœuillet)
 - [#2013](https://github.com/wallabag/wallabag/pull/2013) Fix tag listing (Nicolas Lœuillet)
