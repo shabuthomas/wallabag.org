@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Nicolas L\u0153uillet'
-SITENAME = u'a self hostable application for saving web pages'
+SITENAME = u'wallabag: a self hostable application for saving web pages'
 
 PATH = 'content'
 
