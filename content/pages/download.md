@@ -2,8 +2,8 @@ Title: Download wallabag
 Menulabel: Downloads
 sortorder: 30
 
- * Last version: **2.0.6** (2016/08/10).
- * [Blog post about this version](https://www.wallabag.org/blog/2016/08/10/wallabag-206)
+ * Last version: **2.0.7** (2016/08/22).
+ * [Blog post about this version](https://www.wallabag.org/blog/2016/08/22/wallabag-207)
  * [Need help about installation?]({filename}support.md)
  * [Need to update from wallabag v1?](http://doc.wallabag.org/en/master/user/migration.html)
  * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag)
@@ -16,7 +16,7 @@ Then you can install wallabag by executing the following commands:
 ```
 git clone https://github.com/wallabag/wallabag.git
 cd wallabag
-git checkout 2.0.6
+git checkout 2.0.7
 SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
 php bin/console wallabag:install --env=prod
 ```
@@ -29,7 +29,7 @@ In your wallabag folder, execute these commands:
 ```
 git fetch origin
 git fetch --tags
-git checkout 2.0.6
+git checkout 2.0.7
 SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
 php bin/console cache:clear --env=prod
 ```
@@ -56,7 +56,7 @@ Execute this command to download and extract the latest package:
 wget http://wllbg.org/latest-v2-package && tar xvf latest-v2-package
 ```
 
-<small>(md5 hash of the package: `2c9f88c1662666d138ecfb823457c236`)</small>
+<small>(md5 hash of the package: `18aadd1003a08eb11f5341b9755029f8`)</small>
 
 Now, [read this documentation to create your virtual host](http://doc.wallabag.org/en/master/user/installation.html#installing-on-apache), then access to your wallabag.  
 If you changed the database configuration to use MySQL or PostgreSQL, you need to create a user via this command `php bin/console wallabag:install --env=prod`.
