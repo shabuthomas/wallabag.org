@@ -39,3 +39,25 @@
     background-color: transparent;
 }
 
+@media (min-width: 768px) {
+.navbar-nav>li:first-child>a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }  
+}
+
+div.seen {
+  margin-top: 60px;
+}
+
+div.seen a:link, div.seen a:visited {
+  border-bottom: 0;
+  margin-right: 20px;
+}
+
+div.seen img {
+  -webkit-filter: brightness(0);
+  filter: brightness(0);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
