@@ -1,5 +1,6 @@
 Title: Releases
 sortorder: 35
+exclude: True
 
 Here is the list of all wallabag releases.  
 Please don't use old releases, or you will find less support and they may contain security bugs.
@@ -31,7 +32,7 @@ Please don't use old releases, or you will find less support and they may contai
       <td>2.0.2</td><td>2016-04-21</td><td>[blog post](https://www.wallabag.org/blog/2016/04/21/wallabag-202)</td></tr>
     <tr>
       <td>2.0.1</td><td>2016-04-11</td><td>[blog post](https://www.wallabag.org/blog/2016/04/11/wallabag-201)</td></tr>
-    <tr>
+    <tr class="info">
       <td>**2.0.0**</td><td>**2016-04-03**</td><td>[blog post](https://www.wallabag.org/blog/2016/04/03/wallabag-v2)</td></tr>
     <tr>
       <td>2.0.0-beta.2</td><td>2016-03-12</td><td>[blog post](https://www.wallabag.org/blog/2016/03/12/wallabag-public-beta2)</td></tr>

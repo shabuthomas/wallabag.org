@@ -1,5 +1,6 @@
 Title: Participate
 Menulabel: Participate!
+exclude: True
 sortorder: 60
 
 ## Fix bugs and develop features

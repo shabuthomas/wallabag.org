@@ -2,7 +2,7 @@ Title: Download wallabag
 Menulabel: Downloads
 sortorder: 30
 
- * Last version: **2.0.7** (2016/08/22).
+ * Last version: **2.0.7** (2016/08/22). [History of releases here]({filename}releases.md).
  * [Blog post about this version](https://www.wallabag.org/blog/2016/08/22/wallabag-207)
  * [Need help about installation?]({filename}support.md)
  * [Need to update from wallabag v1?](http://doc.wallabag.org/en/master/user/migration.html)

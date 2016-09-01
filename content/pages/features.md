@@ -5,16 +5,16 @@ sortorder: 20
 <div class="col-lg-12">
   <div class="col-lg-6">
       <div class="panel panel-default">
-        <div class="panel-heading"><img src="../images/wallabag_website_features_1.png" /></div>
-        <div class="panel-body">
+        <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_1.png" /></div>
+        <div class="panel-body" style="text-align:center">
           Save webpages, cleaned for better experience
         </div>
       </div>
   </div>
   <div class="col-lg-6">
       <div class="panel panel-default">
-        <div class="panel-heading"><img src="../images/wallabag_website_features_2.png" /></div>
-        <div class="panel-body">
+        <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_2.png" /></div>
+        <div class="panel-body" style="text-align:center">
           Organise content: tags, favorite, filters, &hellip;
         </div>
       </div>
@@ -24,8 +24,8 @@ sortorder: 20
 <div class="col-lg-12">
   <div class="col-lg-6">
     <div class="panel panel-default">
-      <div class="panel-heading"><img src="../images/wallabag_website_features_3.png" /></div>
-      <div class="panel-body">
+      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_3.png" /></div>
+      <div class="panel-body" style="text-align:center">
         Access content from everywhere with mobile apps
       </div>
     </div>
@@ -33,8 +33,8 @@ sortorder: 20
 
   <div class="col-lg-6">
     <div class="panel panel-default">
-      <div class="panel-heading"><img src="../images/wallabag_website_features_4.png" /></div>
-      <div class="panel-body">
+      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_4.png" /></div>
+      <div class="panel-body" style="text-align:center">
         wallabag is open-source, and you can install it yourself
       </div>
     </div>
@@ -43,8 +43,8 @@ sortorder: 20
 
 <div class="col-lg-12" align="center">
     <div class="panel panel-default">
-      <div class="panel-heading"><img src="../images/wallabag_website_features_5.png" /></div>
-      <div class="panel-body">
+      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_5.png" /></div>
+      <div class="panel-body" style="text-align:center">
         Compatibility : import from your bookmarks or any other service
       </div>
     </div>

@@ -1,17 +1,19 @@
-Title: what is wallabag?
+Title: Save the web, freely
 Menulabel: Homepage
 save_as: index.html
 exclude: True
 sortorder: 10
 
-<div class="jumbotron" markdown="1">
-<img src="images/logo_homepage.png" alt="wallabag logo" style="float: right;" />
-wallabag is a **self hostable application for saving web pages**. Unlike other services, wallabag is free (as in freedom) and [open source](https://github.com/wallabag/wallabag/blob/v2/COPYING.md).
-
-With this application you will not miss content anymore. **Click, save, read it when you want**. It saves the content you select so that you can read it when you have time.
-<p><a class="btn btn-default" href="/pages/features-screenshots.html"><i class="fa fa-star fa-small"></i> Features</a> <a class="btn btn-default" href="https://www.framabag.org/"><i class="fa fa-user-plus fa-small"></i> Register</a> <a class="btn btn-default" href="https://github.com/wallabag/wallabag"><i class="fa fa-code-fork fa-small"></i> Source code</a> <a class="btn btn-default" href="/pages/download-wallabag.html"><i class="fa fa-download fa-small"></i> Download</a></p>
-</div>
-
 <div style="text-align:center">
 <iframe src="https://player.vimeo.com/video/167435064" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<div markdown="1" style="text-align: center;">
+<h2>**wallabag, a self hostable application for saving web pages**</h2>
+
+<p><a class="btn btn-primary btn-lg" href="/pages/features-screenshots.html"><i class="fa fa-star"></i> Features</a> <a class="btn btn-primary btn-lg" href="https://www.framabag.org/"><i class="fa fa-user-plus"></i> Register (it's free!)</a> <a class="btn btn-primary btn-lg" href="https://github.com/wallabag/wallabag"><i class="fa fa-code-fork"></i> Source code</a> <a class="btn btn-primary btn-lg" href="/pages/download-wallabag.html"><i class="fa fa-download"></i> Download</a></p>
+</div>
+
+<div class="well seen" style="text-align: center;">
+<a href="https://news.ycombinator.com/item?id=10955186"><img style="max-width: 10rem;" src="/images/hackernews.png" /></a> <a href="http://lifehacker.com/wallabag-is-a-self-hosted-read-it-later-service-1575106528"><img style="max-width: 10rem;" src="/images/lifehacker.png" /></a> <a href="https://www.reddit.com/r/linux/comments/35zomp/dont_fancy_proprietary_closedsource_pocket_heres/"><img style="max-width: 10rem;" src="/images/reddit.png" /></a> <a href="http://www.numerama.com/tech/160115-le-pocket-libre-wallabag-fait-le-plein-de-fonctionnalites.html"><img style="max-width: 10rem;" src="/images/numerama.png" /></a> <a href="http://www.nextinpact.com/news/99330-sauvegarde-darticles-wallabag-2-0-deboule-avec-longue-liste-nouveautes.htm"><img style="max-width: 10rem;" src="/images/nextinpact.png" /></a>
 </div>

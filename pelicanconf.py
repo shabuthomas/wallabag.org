@@ -26,6 +26,8 @@ BOOTSTRAP_THEME = 'cosmo'
 CUSTOM_CSS = 'extra/css/custom.css'
 RECENT_POST_COUNT = 3
 
+HIDE_SIDEBAR = True
+
 BOOTSTRAP_NAVBAR_INVERSE = True
 USE_PAGER = True
 

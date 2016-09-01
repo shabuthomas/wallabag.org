@@ -114,7 +114,9 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/" title="Homepage"><i class="fa fa-home"></i></a></li>
+                <li><a href="/" title="Homepage">
+                <img src="/images/logo-navbar.png" />
+                </a></li>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
@@ -143,7 +145,6 @@
                 </form></span>
               </li>
             {% endif %}
-              <li><a href="{{ SITEURL }}/blog_index.html"><i class="fa fa-th-list"></i><span class="icon-label">Blog</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
