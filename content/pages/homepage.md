@@ -4,9 +4,14 @@ save_as: index.html
 exclude: True
 sortorder: 10
 
-<div style="text-align:center">
-<iframe src="https://player.vimeo.com/video/167435064" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+<div style="max-width: 800px; margin: 0 auto;">
+    <div class="embed-container">
+        <iframe src="https://player.vimeo.com/video/167435064" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-mce-src="https://player.vimeo.com/video/167435064"></iframe>
+    </div>
 </div>
+
 
 <div style="text-align: center;">
 	<h2><strong>wallabag, a self hostable application for saving web pages</strong></h2>
