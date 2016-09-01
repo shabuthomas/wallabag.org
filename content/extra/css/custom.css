@@ -37,8 +37,7 @@
 
 .panel-default > .panel-heading {
     background-color: transparent;
-}
-
+} 
 @media (min-width: 768px) {
 .navbar-nav>li:first-child>a {
     padding-top: 0;
