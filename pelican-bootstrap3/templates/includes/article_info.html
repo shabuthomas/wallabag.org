@@ -1,4 +1,4 @@
-<footer class="post-info">
+<div class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
         <i class="fa fa-calendar"></i><time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>
@@ -30,6 +30,21 @@
     {% endif %}
 
     {% include 'includes/taglist.html' %}
+
+{% if article.share_post and article.status != 'draft' %}
+    <span id="post-share-links">
+        <span class="label label-default">Share</span>
+        <a href="{{article.share_post['diaspora']}}" target="_blank" title="Share on Diaspora">Diaspora*</a>
+        ❄
+        <a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">Twitter</a>
+        ❄
+        <a href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook">Facebook</a>
+        ❄
+        <a href="{{article.share_post['email']}}" title="Share via Email">Email</a>
+    </span>
+{% endif %}
+
     {% import 'includes/translations.html' as translations with context %}
     {{ translations.translations_for(article) }}
-</footer><!-- /.post-info -->
+</div><!-- /.post-info -->
+

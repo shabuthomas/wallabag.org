@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Nicolas L\u0153uillet'
 SITENAME = u'wallabag: a self hostable application for saving web pages'
-
+SITEURL = "http://localhost:8000"
 PATH = 'content'
 
 #WARNING_MESSAGE = u'<strong>2016/04/03: <a href="https://www.wallabag.org/blog/2016/04/03/wallabag-v2">wallabag v2 available! Download it here.</a></strong>'
@@ -67,3 +67,8 @@ EXTRA_PATH_METADATA = {
 }
 
 READERS = {'html': None}
+
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['share_post']

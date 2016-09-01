@@ -60,3 +60,12 @@ div.seen img {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
+
+article .content {
+  font-size: 18px;
+
+}
+
+article .content a {
+  color: #2780e3;
+}
