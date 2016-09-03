@@ -29,7 +29,7 @@ sortorder: 20
     <img src="/images/features/imports.png" alt="Imports" />
   </div>
   <div class="col-lg-6">
-    <h2>Migrate for other services</h2>
+    <h2>Migrate from other services</h2>
     If you already have an account on Pocket<sup>©</sup>, Readability<sup>©</sup>, Instapaper<sup>©</sup> or even wallabag, you can import your data into wallabag. 
   </div>
 </div>
@@ -58,7 +58,7 @@ sortorder: 20
 <div class="row">
   <div class="col-lg-6">
     <h2>Keep your data</h2>
-    All your data belong to you. You can download all your articles in many formats: PDF, ePUB, .mobi, JSON, CSV, text or HTML. 
+    All your data belong to you. You can download all your articles in many formats: PDF, ePUB, .mobi, JSON, CSV, txt or HTML. 
   </div>
   <div class="col-lg-6">
     <img src="/images/features/exports.png" alt="Exports" />
