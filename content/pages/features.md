@@ -9,7 +9,6 @@ sortorder: 20
     <h2>Comfortable reading</h2>
     wallabag extracts article's content (and only content!) and displays it in a comfortable view.<br />
     Moreover, wallabag is responsive: you can read your articles on your smartphone or your tablet.
-    And it also works when you're offline!
   </div>
 </div>
 <hr />
