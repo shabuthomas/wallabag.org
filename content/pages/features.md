@@ -1,94 +1,66 @@
 Title: Features & screenshots
 menulabel: Features
 sortorder: 20
-
-<div class="col-lg-12">
+<div class="row">
   <div class="col-lg-6">
-      <div class="panel panel-default">
-        <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_1.png" /></div>
-        <div class="panel-body" style="text-align:center">
-          Save webpages, cleaned for better experience
-        </div>
-      </div>
+    <img src="/images/features/homepage.png" alt="Homepage" />
   </div>
   <div class="col-lg-6">
-      <div class="panel panel-default">
-        <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_2.png" /></div>
-        <div class="panel-body" style="text-align:center">
-          Organise content: tags, favorite, filters, &hellip;
-        </div>
-      </div>
+    <h2>Comfortable reading</h2>
+    wallabag extracts article's content (and only content!) and displays it in a comfortable view.<br />
+    Moreover, wallabag is responsive: you can read your articles on your smartphone or your tablet.
+    And it also works when you're offline!
   </div>
 </div>
-
-<div class="col-lg-12">
+<hr />
+<div class="row">
   <div class="col-lg-6">
-    <div class="panel panel-default">
-      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_3.png" /></div>
-      <div class="panel-body" style="text-align:center">
-        Access content from everywhere with mobile apps
-      </div>
-    </div>
+    <h2>Applications for smartphone</h2>
+    Android, iOS or Windows Phone: wallabag application is available for your smartphone. <br />
+    It's so easy to read your saved articles on your phone. And it also works when you're offline!
   </div>
-
-  <div class="col-lg-6">
-    <div class="panel panel-default">
-      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_4.png" /></div>
-      <div class="panel-body" style="text-align:center">
-        wallabag is open-source, and you can install it yourself
-      </div>
-    </div>
+  <div class="col-lg-6" style="text-align:center">
+    <img src="/images/features/mobile.png" alt="Applications" />
   </div>
 </div>
-
-<div class="col-lg-12" align="center">
-    <div class="panel panel-default">
-      <div class="panel-heading" style="text-align:center"><img src="../images/wallabag_website_features_5.png" /></div>
-      <div class="panel-body" style="text-align:center">
-        Compatibility : import from your bookmarks or any other service
-      </div>
-    </div>
+<hr />
+<div class="row">
+  <div class="col-lg-6">
+    <img src="/images/features/imports.png" alt="Imports" />
+  </div>
+  <div class="col-lg-6">
+    <h2>Migrate from other services</h2>
+    If you already have an account on Pocket<sup>©</sup>, Readability<sup>©</sup>, Instapaper<sup>©</sup> or even wallabag, you can import your data into wallabag. 
+  </div>
 </div>
-
-[A cartoon is available](https://framabag.org/cquoi/) to understand what wallabag is. 
-
-## Detailed features
-
-<table class="table table-striped table-hover" markdown="1">
-  <tbody>
-    <tr><td>wallabag is free and open source. Forever.</td></tr>
-    <tr><td>No time to read? Save a link in your wallabag to read it later</td></tr>
-    <tr><td>Read the saved articles in a comfortable view: the content, only the content. Get rid of the ads and menus.</td></tr>
-    <tr><td>Save all the content: text and pictures</td></tr>
-    <tr><td>You can easily migrate from other proprietary services : welcome to you, Pocket / Readability or Instapaper users! Also, you can import your browser bookmarks.</td></tr>
-    <tr><td>You like an article? There's many ways to share it, featuring email, twitter or shaarli</td></tr>
-    <tr><td>Because we are increasingly mobile, the wallabag interface fits all your devices</td></tr>
-    <tr><td>Saving a link is so easy because we provide you with many tools: extensions for Chrome and Firefox, iOS, Android, Firefox OS and Windows Phone application, a bookmarklet, a simple field in your config webpage</td></tr>
-    <tr><td>RSS feeds allow you to read your saved links in your RSS aggregator</td></tr>
-    <tr><td>You have an e-reader? wallabag can export all kind of entries to ePub, Mobi & PDF formats.</td></tr>
-    <tr><td>You can set as many  tags you like to your entries</td></tr>
-    <tr><td>It is possible to search through title and content of articles</td></tr>
-    <tr><td>wallabag is multilingual: french, english, spanish, german, italian, russian, persian, czech, polish, ukrainian and slovenian</td></tr>
-    <tr><td>Keyboard shortcuts ! Lots of them !</td></tr>
-    <tr><td>You’re not the only one at home to use wallabag? that’s fine, wallabag is multi-user</td></tr>
-    <tr><td>Prefer a dark template? Perfect, many templates are available in the configuration screen</td></tr>
-    <tr><td>Many storage systems allowed: sqlite, mysql and postgresql</td></tr>
-    <tr><td>Scroll position is saved: when you return to an article, you come back where you were. So convenient!</td></tr>
-    <tr><td>You can flattr flattrable articles directly from your wallabag</td></tr>
-    <tr><td>You want to retrieve your wallabag data? Hey, remember, wallabag is open source, you can export it</td></tr>
-  </tbody>
-</table>
-
-## Screenshots
-
-![wallabag homepage](/images/screenshots/homepage.png)
-
-![article in wallabag](/images/screenshots/article.png)
-
-![filters](/images/screenshots/filters.png)
-
-![date filter](/images/screenshots/date_filter.png)
-
-![config screen](/images/screenshots/config.png)
-
-Pictures (except wallabag screenshots) used in this page come [from icons8.com](https://icons8.com/).
+<hr />
+<div class="row">
+  <div class="col-lg-6">
+    <h2>Retrieve easily your articles thanks to the filters</h2>
+    wallabag provides a powerful tool to filter your saved articles. It's so easy to look for them  
+  </div>
+  <div class="col-lg-6">
+    <img src="/images/features/filters.png" alt="Filters" />
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-lg-6">
+    <img src="/images/features/translations.png" alt="Translations" />
+  </div>
+  <div class="col-lg-6">
+    <h2>Available in your language</h2>
+    wallabag is translated into more than ten languages.<br />
+    If yours is not yet available, please help us to do it. 
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-lg-6">
+    <h2>Keep your data</h2>
+    All your data belong to you. You can download all your articles in many formats: PDF, ePUB, .mobi, JSON, CSV, txt or HTML. 
+  </div>
+  <div class="col-lg-6">
+    <img src="/images/features/exports.png" alt="Exports" />
+  </div>
+</div>
