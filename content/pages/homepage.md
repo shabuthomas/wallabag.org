@@ -17,7 +17,7 @@ sortorder: 10
 	<h2><strong>wallabag, a self hostable application for saving web pages</strong></h2>
 
 	<p>
-		<a class="btn btn-primary btn-lg" href="/pages/features-screenshots.html"><i class="fa fa-star"></i> Features</a> <a class="btn btn-primary btn-lg" href="https://www.framabag.org/"><i class="fa fa-user-plus"></i> Register (it's free!)</a> <a class="btn btn-primary btn-lg" href="https://github.com/wallabag/wallabag"><i class="fa fa-code-fork"></i> Source code</a> <a class="btn btn-primary btn-lg" href="/pages/download-wallabag.html"><i class="fa fa-download"></i> Download</a>
+		<a class="btn btn-primary btn-lg" href="/pages/features-screenshots.html"><i class="fa fa-star"></i> Features</a> <a class="btn btn-primary btn-lg" href="https://www.framabag.org/"><i class="fa fa-user-plus"></i> Register (it's free!)</a> <a class="btn btn-primary btn-lg" href="https://github.com/wallabag/wallabag"><i class="fa fa-github"></i> Source code</a> <a class="btn btn-primary btn-lg" href="/pages/download-wallabag.html"><i class="fa fa-download"></i> Download</a>
 	</p>
 </div>
 
