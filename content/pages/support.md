@@ -41,15 +41,3 @@ If you need help, there are many ways to find solutions.
       </div>
   </div>
 </div>
-
-
-<div class="col-lg-12">
-  <div class="col-lg-6">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <i class="fa fa-comment fa-lg"></i> <strong>IRC</strong>
-        </div>
-        <div class="panel-footer">IRC is old, you're right. But very useful. We have a channel on irc.freenode.net#wallabag.<br /><br /><a href="https://webchat.freenode.net/" class="btn btn-info">Chat with us on IRC</a></div>
-      </div>
-  </div>
-</div>
