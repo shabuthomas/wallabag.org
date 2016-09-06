@@ -2,86 +2,48 @@ Title: Download wallabag
 Menulabel: Downloads
 sortorder: 30
 
- * Last version: **2.0.7** (2016/08/22). [History of releases here]({filename}releases.md).
- * [Blog post about this version](https://www.wallabag.org/blog/2016/08/22/wallabag-207)
- * [Need help about installation?]({filename}support.md)
- * [Need to update from wallabag v1?](http://doc.wallabag.org/en/master/user/migration.html)
- * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag)
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#dedicated" data-toggle="tab" aria-expanded="true">Install and update wallabag v2</a></li>
+  <li><a href="#docker" data-toggle="tab" aria-expanded="true">Install with docker</a></li>
+  <li><a href="#softaculous" data-toggle="tab" aria-expanded="true">Install with Softaculous</a></li>
+  <li><a href="#v1" data-toggle="tab" aria-expanded="true">Install wallabag v1</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="dedicated">
+<ul>
+ <li>Last version: <strong>2.0.7</strong> (2016/08/22). <a href="https://www.wallabag.org/pages/releases.html">History of wallabag releases is here</a>.</li>
+ <li><a href="https://www.wallabag.org/blog/2016/08/22/wallabag-207">Blog post about this version</a></li>
+</ul>
+    <p>Read our documentation to <a href="http://doc.wallabag.org/en/master/user/installation.html">install wallabag</a> or to <a href="http://doc.wallabag.org/en/master/user/upgrade.html">update it</a>.</p>
+    <p>Do you need to migrate from wallabag v1? <a href="http://doc.wallabag.org/en/master/user/migration.html">Read this documentation</a>.</p>
+  </div>
+  <div class="tab-pane fade" id="docker">
+  <p style="float: right;"><img src="/images/docker.png" alt="Docker logo" /></p>
+    <p>You can find our official repository <a href="https://hub.docker.com/r/wallabag/wallabag/">on Docker hub</a>.</p>
+    <div class="highlight"><pre>
+docker pull wallabag/wallabag</pre></div>
+  </div>
+  <div class="tab-pane fade" id="softaculous">
+  <p style="float: right;"><img src="/images/softaculous.gif" alt="Softaculous logo" /></p>
+    <p>Thanks to Softaculous, you can easily install wallabag. <a href="https://www.softaculous.com/softaculous/apps/others/wallabag">Create your account on the Softaculous website</a> and install wallabag.</p>
+  </div>
+  <div class="tab-pane fade" id="v1">
+    <p>
+<ul>
+  <li>Last version: <strong>1.9.2</strong> (2016/04/18).</li>
+  <li><a href="https://www.wallabag.org/blog/2016/04/18/wallabag-192">Blog post about this version</a></li>
+</ul>
 
-## Installation on a dedicated web server (recommended way)
-
-If you don't have it yet, please [install composer](https://getcomposer.org/download/) and git.  
-Then you can install wallabag by executing the following commands:
-
-```
-git clone https://github.com/wallabag/wallabag.git
-cd wallabag
-git checkout 2.0.7
-SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
-php bin/console wallabag:install --env=prod
-```
-[Read this documentation to create your virtual host](http://doc.wallabag.org/en/master/user/installation.html#installing-on-apache).
-
-### Upgrade
-
-In your wallabag folder, execute these commands:
-
-```
-git fetch origin
-git fetch --tags
-git checkout 2.0.7
-SYMFONY_ENV=prod composer install --no-dev -o --prefer-dist
-php bin/console cache:clear --env=prod
-```
-
-## Installation via Docker
-
-You can find our official repository [on Docker hub](https://hub.docker.com/r/wallabag/wallabag/).
-
-## Installation on a shared hosting
-
-We provide you a package with all dependancies inside.  
-The default configuration uses SQLite for the database. If you want to change these settings, please edit `app/config/parameters.yml`.
-
-We already created a user: login and password are `wallabag`.
-
-<div class="alert alert-warning" markdown="1">
-  <p>With this package, wallabag don't check mandatory extensions used in the application (theses checks are made during `composer install` when you have a dedicated web server, see above).  
-  **[Please read our installation documentation to see requirements](http://doc.wallabag.org/en/master/user/installation.html)**.</p>
+<div class="highlight"><pre>
+wget http://wllbg.org/latest && unzip latest
+</pre></div>
+<small>(md5 hash of the package: <code>c54ac594b03ce2026cf1f671391033e3</code>)</small></p>
+  </div>
 </div>
 
-Execute this command to download and extract the latest package: 
+<hr />
 
-```
-wget http://wllbg.org/latest-v2-package && tar xvf latest-v2-package
-```
-
-<small>(md5 hash of the package: `18aadd1003a08eb11f5341b9755029f8`)</small>
-
-Now, [read this documentation to create your virtual host](http://doc.wallabag.org/en/master/user/installation.html#installing-on-apache), then access to your wallabag.  
-If you changed the database configuration to use MySQL or PostgreSQL, you need to create a user via this command `php bin/console wallabag:install --env=prod`.
-
-### Upgrade
-
-Backup your `app/config/parameters.yml` file. Extract the archive in your wallabag folder and replace `app/config/parameters.yml` with yours.  
-If you use SQLite, you must also copy your `data/` folder inside the new installation.
-
-Please empty `var/cache` folder.
-
-## wallabag 1
-
-  * Last version: **1.9.2** (2016/04/18).
-  * [Blog post about this version](https://www.wallabag.org/blog/2016/04/18/wallabag-192)
-  * [Need help about installation?]({filename}support.md)
- * [<i class="fa fa-github fa-lg"></i> Source code](https://github.com/wallabag/wallabag/tree/master)
-
-```
-wget http://wllbg.org/latest && unzip latest
-```
-
-<small>(md5 hash of the package: `c54ac594b03ce2026cf1f671391033e3`)</small>
-
-## Third-party applications
+## Smartphones applications and browsers addons
 
 <div class="col-lg-12" markdown="1">
   <div class="col-lg-4">
