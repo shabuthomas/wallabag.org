@@ -9,23 +9,25 @@ sortorder: 30
   <li><a href="#v1" data-toggle="tab" aria-expanded="true">Install wallabag v1</a></li>
 </ul>
 <div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="dedicated">
+  <div class="tab-pane fade active in" id="dedicated"><p>
 <ul>
- <li>Last version: <strong>2.0.7</strong> (2016/08/22). <a href="https://www.wallabag.org/pages/releases.html">History of wallabag releases is here</a>.</li>
- <li><a href="https://www.wallabag.org/blog/2016/08/22/wallabag-207">Blog post about this version</a></li>
-</ul>
+ <li>Last version: <strong>2.0.8</strong> (2016/09/07). <a href="https://www.wallabag.org/pages/releases.html">History of wallabag releases is here</a>.</li>
+ <li><a href="https://www.wallabag.org/blog/2016/09/07/wallabag-208">Blog post about this version</a></li>
+</ul></p>
     <p>Read our documentation to <a href="http://doc.wallabag.org/en/master/user/installation.html">install wallabag</a> or to <a href="http://doc.wallabag.org/en/master/user/upgrade.html">update it</a>.</p>
     <p>Do you need to migrate from wallabag v1? <a href="http://doc.wallabag.org/en/master/user/migration.html">Read this documentation</a>.</p>
   </div>
-  <div class="tab-pane fade" id="docker">
+  <div class="tab-pane fade" id="docker"><p>
   <p style="float: right;"><img src="/images/docker.png" alt="Docker logo" /></p>
     <p>You can find our official repository <a href="https://hub.docker.com/r/wallabag/wallabag/">on Docker hub</a>.</p>
     <div class="highlight"><pre>
-docker pull wallabag/wallabag</pre></div>
+docker pull wallabag/wallabag</pre></div></p>
   </div>
   <div class="tab-pane fade" id="softaculous">
+  <p>
   <p style="float: right;"><img src="/images/softaculous.gif" alt="Softaculous logo" /></p>
     <p>Thanks to Softaculous, you can easily install wallabag. <a href="https://www.softaculous.com/softaculous/apps/others/wallabag">Create your account on the Softaculous website</a> and install wallabag.</p>
+ </p> 
   </div>
   <div class="tab-pane fade" id="v1">
     <p>
